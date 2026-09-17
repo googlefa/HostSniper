@@ -32,7 +32,7 @@
 ### 🚀 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HostSniper.git
+git clone https://github.com/googlefa/HostSniper.git
 cd HostSniper
 pip install -r requirements.txt
 ```
@@ -85,7 +85,7 @@ python hostsniper.py --target example.com --full
 ### 📥 نصب و اجرا
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HostSniper.git
+git clone https://github.com/googlefa/HostSniper.git
 cd HostSniper
 python hostsniper.py --target example.com
 ```
