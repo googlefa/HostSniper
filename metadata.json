@@ -1,0 +1,6 @@
+{
+  "name": "Reverse IP Domain Scanner",
+  "description": "ابزار پیشرفته و مدرن ریورس آی‌پی برای کشف تمامی دامنه‌ها و سایت‌های مستقر روی یک سرور و آی‌پی بدون نیاز به کلید API",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
