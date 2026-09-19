@@ -18,18 +18,18 @@
 
 **HostSniper** is a powerful all-in-one **Reverse IP Lookup and OSINT reconnaissance** tool. Simply provide an IP address or domain name, and HostSniper will discover all domains hosted on the same server, then perform deep intelligence gathering on each target.
 
-### ⚡ Key Features
+###  Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 🎯 **Reverse IP Lookup** | Find all domains sharing the same server |
-| 📡 **Mass Ping** | Check live status and latency of discovered domains |
-| 🔒 **SSL/TLS Analyzer** | Inspect SSL certificates, expiration, and issuer info |
-| 🕵️ **WHOIS Extraction** | Fetch domain registration and ownership data |
-| 🧬 **DNS Records** | Retrieve NS, A, MX, CNAME, and TXT records |
-| ⚙️ **Lightweight** | Fast enumeration with minimal dependencies |
+|  **Reverse IP Lookup** | Find all domains sharing the same server |
+|  **Mass Ping** | Check live status and latency of discovered domains |
+|  **SSL/TLS Analyzer** | Inspect SSL certificates, expiration, and issuer info |
+|  **WHOIS Extraction** | Fetch domain registration and ownership data |
+|  **DNS Records** | Retrieve NS, A, MX, CNAME, and TXT records |
+|  **Lightweight** | Fast enumeration with minimal dependencies |
 
-### 🚀 Installation
+###  Installation
 
 ```bash
 git clone https://github.com/googlefa/HostSniper.git
@@ -37,7 +37,7 @@ cd HostSniper
 pip install -r requirements.txt
 ```
 
-### 💻 Usage
+###  Usage
 
 ```bash
 # Scan by IP address
@@ -50,7 +50,7 @@ python hostsniper.py --target example.com
 python hostsniper.py --target example.com --full
 ```
 
-### 📋 Example Output
+###  Example Output
 
 ```text
 [*] Target: example.com
@@ -61,7 +61,7 @@ python hostsniper.py --target example.com --full
 [+] domain2.net | Ping: 62ms | SSL: Expired | NS: ns2.example.com
 ```
 
-### 🛠️ Use Cases
+###  Use Cases
 
 - OSINT & Information Gathering
 - Bug Bounty Reconnaissance
@@ -74,15 +74,15 @@ python hostsniper.py --target example.com --full
 
 **هاست‌اسنایپر** یک ابزار قدرتمند برای **ریورس آی‌پی و شناسایی دامنه‌ها** است. کافی است یک آی‌پی یا آدرس دامنه به آن بدهید تا تمام دامنه‌هایی که روی همان سرور میزبانی می‌شوند را پیدا کند و اطلاعات کاملی از هر کدام استخراج کند.
 
-### ✨ امکانات
+###  امکانات
 
-- 🔍 پیدا کردن تمام دامنه‌های روی یک سرور (Reverse IP)
-- 📡 پینگ گرفتن از تمام دامنه‌های پیدا شده
-- 🔒 بررسی گواهینامه SSL هر دامنه
-- 🕵️ استخراج اطلاعات WHOIS
-- 🧬 دریافت رکوردهای DNS (مثل NS, A, MX)
+- پیدا کردن تمام دامنه‌های روی یک سرور (Reverse IP)
+-  پینگ گرفتن از تمام دامنه‌های پیدا شده
+- بررسی گواهینامه SSL هر دامنه
+-  استخراج اطلاعات WHOIS
+-  دریافت رکوردهای DNS (مثل NS, A, MX)
 
-### 📥 نصب و اجرا
+###  نصب و اجرا
 
 ```bash
 git clone https://github.com/googlefa/HostSniper.git
@@ -90,13 +90,13 @@ cd HostSniper
 python hostsniper.py --target example.com
 ```
 
-### 🤝 مشارکت
+###  مشارکت
 
 اگر باگی پیدا کردید یا پیشنهادی دارید، خوشحال می‌شوم در بخش Issues مطرح کنید یا Pull Request بزنید!
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
